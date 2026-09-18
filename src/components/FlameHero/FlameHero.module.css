@@ -1,0 +1,54 @@
+.hero {
+  position: relative;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 32px 6vw;
+
+  background: #0b0b0b;
+  color: #f4f0e8;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.center {
+  text-align: center;
+}
+
+.label {
+  display: block;
+
+  margin-bottom: 24px;
+
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+.center h1 {
+  margin: 0;
+
+  font-size: clamp(56px, 10vw, 150px);
+  line-height: 0.82;
+  letter-spacing: -0.07em;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 11px;
+  letter-spacing: 0.15em;
+}
+
+.arrow {
+  font-size: 22px;
+}
